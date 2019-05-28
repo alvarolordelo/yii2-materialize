@@ -4,7 +4,6 @@
 
 # Materialize for Yii2
 
-----
 
 This is the current, actively developed branch which is implementing Materialize version 1.0 and thus breaking backwards compatibility.
 
@@ -133,5 +132,5 @@ You can find the samples of layout file in ```src/layout/main-starter.php``` and
 
 ## Change log
 
-### 0.0.1 - 2019-05-28
+### 2019.1 - 2019-05-28
 * Initial release
