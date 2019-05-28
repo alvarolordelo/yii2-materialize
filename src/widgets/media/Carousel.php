@@ -1,14 +1,14 @@
 <?php
 /**
- * @link https://github.com/MacGyer/yii2-materializecss
- * @copyright Copyright (c) 2016 ... MacGyer for pluspunkt coding
- * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
+ * @link https://github.com/alvarolordelo/yii2-materializecss
+ * @copyright Copyright (c) 2016 ... alvarolordelo for pluspunkt coding
+ * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\media;
+namespace alvarolordelo\yii2materializecss\widgets\media;
 
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materializecss\lib\BaseWidget;
+use alvarolordelo\yii2materializecss\lib\Html;
 use yii\helpers\ArrayHelper;
 
 /**

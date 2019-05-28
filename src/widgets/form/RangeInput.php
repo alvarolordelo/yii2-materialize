@@ -1,15 +1,15 @@
 <?php
 /**
- * @link https://github.com/MacGyer/yii2-materializecss
- * @copyright Copyright (c) 2016 ... MacGyer for pluspunkt coding
- * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
+ * @link https://github.com/alvarolordelo/yii2-materializecss
+ * @copyright Copyright (c) 2016 ... alvarolordelo for pluspunkt coding
+ * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\form;
+namespace alvarolordelo\yii2materializecss\widgets\form;
 
-use macgyer\yii2materializecss\assets\NoUiSliderAsset;
-use macgyer\yii2materializecss\lib\BaseInputWidget;
-use macgyer\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materializecss\assets\NoUiSliderAsset;
+use alvarolordelo\yii2materializecss\lib\BaseInputWidget;
+use alvarolordelo\yii2materializecss\lib\Html;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\web\JsExpression;

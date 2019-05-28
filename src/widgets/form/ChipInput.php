@@ -1,9 +1,9 @@
 <?php
 
-namespace macgyer\yii2materializecss\widgets\form;
+namespace alvarolordelo\yii2materializecss\widgets\form;
 
-use macgyer\yii2materializecss\lib\BaseInputWidget;
-use macgyer\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materializecss\lib\BaseInputWidget;
+use alvarolordelo\yii2materializecss\lib\Html;
 use yii\helpers\ArrayHelper;
 
 /**

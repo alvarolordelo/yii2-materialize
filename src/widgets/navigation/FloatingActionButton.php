@@ -1,15 +1,15 @@
 <?php
 /**
- * @link https://github.com/MacGyer/yii2-materializecss
- * @copyright Copyright (c) 2016 ... MacGyer for pluspunkt coding
- * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
+ * @link https://github.com/alvarolordelo/yii2-materializecss
+ * @copyright Copyright (c) 2016 ... alvarolordelo for pluspunkt coding
+ * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\navigation;
+namespace alvarolordelo\yii2materializecss\widgets\navigation;
 
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\Button;
+use alvarolordelo\yii2materializecss\lib\BaseWidget;
+use alvarolordelo\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materializecss\widgets\Button;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 
@@ -108,7 +108,7 @@ class FloatingActionButton extends BaseWidget
 
     /**
      * @var array the options for the optional icon.
-     * The icon will be rendered by [[\macgyer\yii2materializecss\widgets\Icon|Icon]].
+     * The icon will be rendered by [[\alvarolordelo\yii2materializecss\widgets\Icon|Icon]].
      *
      * To specify an icon you can use the following parameters:
      *
