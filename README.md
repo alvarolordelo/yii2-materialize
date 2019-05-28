@@ -32,8 +32,12 @@ Or you can make use of Asset Packagist: <https://asset-packagist.org/>
 
 To install the package add the following to the ```require``` section of your composer.json:
 ```
+composer require alvarolordelo/yii2-materialize: "dev-master"
+```
+
+```
 "require": {
-    "alvarolordelo/yii2-materializecss": "~3.0.0"
+    "alvarolordelo/yii2-materialize": "dev-master"
 },
 ```
 
