@@ -1,5 +1,5 @@
 [![license](https://img.shields.io/badge/LICENCE-BSD--3--Clause-blue.svg)](https://packagist.org/packages/alvarolordelo/yii2-materialize)
-[![Github Release](https://img.shields.io/github/release/alvarolordelo/yii2-materialize.svg)](https://packagist.org/packages/alvarolordelo/yii2-materialize#dev-master)
+[![Github Release](https://img.shields.io/github/release/alvarolordelo/yii2-materialize.svg)](https://packagist.org/packages/alvarolordelo/yii2-materialize)
 [![Packagist](https://img.shields.io/packagist/dt/alvarolordelo/yii2-materialize.svg)](https://packagist.org/packages/alvarolordelo/yii2-materialize)
 
 # Materialize for Yii2
