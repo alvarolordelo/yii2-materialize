@@ -8,12 +8,10 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Christoph Erdmann",
-            "homepage": "https://www.matero.de",
-            "role": "Developer",
 			"name": "Alvaro Lordelo Jr",
             "homepage": "https://www.lordelosistemas.com",
             "role": "Developer"
+			
         }
     ],
     "version": "3.0.0",
