@@ -49,7 +49,8 @@ Two ways to achieve this is to register the asset in the main layout:
 ```php
 // @app/views/layouts/main.php
 
-\alvarolordelo\yii2materializecss\assets\MaterializeAsset::register($this);
+\alvarolordelo\yii2materialize\assets\MaterializeAsset::register($this);
+
 // further code
 ```
 
@@ -59,7 +60,7 @@ or as a dependency in your app wide AppAsset.php
 // @app/assets/AppAsset.php
 
 public $depends = [
-    'alvarolordelo\yii2materializecss\assets\MaterializeAsset',
+    'alvarolordelo\yii2materialize\assets\MaterializeAsset',
     // more dependencies
 ];
 ```
@@ -113,7 +114,7 @@ $config['modules']['gii'] = [
         'crud' => [
             'class' => 'yii\gii\generators\crud\Generator',
             'templates' => [ // setting materializecss templates
-                'materializecss' => '@vendor/alvarolordelo/yii2-materializecss/src/gii-templates/generators/crud/materializecss', 
+                'materializecss' => '@vendor/alvarolordelo/yii2-materialize/src/gii-templates/generators/crud/materializecss', 
             ]
         ]
     ],
@@ -132,7 +133,7 @@ Systems operating on normal parameters :)
 There is a sample layout file included in the package. You can use this file to get inspiration for
 your own layout or replace the respective ```views/layouts/main.php``` with the file provided.
 
-You can find the samples of layout file in ```src/layout/main-starter.php``` and ```src/layout/main-parallax.php``` offered on materialize website.
+You can find the samples of layout file in ```src/layout/main-starter.php``` and ```src/layout/main-parallax.php``` coded from materialize website DEMO.
 
 ## Change log
 
