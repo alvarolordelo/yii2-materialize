@@ -129,7 +129,7 @@ Systems operating on normal parameters :)
 There is a sample layout file included in the package. You can use this file to get inspiration for
 your own layout or replace the respective ```views/layouts/main.php``` with the file provided.
 
-You can find the sample layout file in ```src/layout/main.php```.
+You can find the samples of layout file in ```src/layout/main-starter.php``` and ```src/layout/main-parallax.php``` offered on materialize website.
 
 ## Change log
 
