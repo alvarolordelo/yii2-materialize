@@ -2,11 +2,11 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\navigation\Nav;
-use macgyer\yii2materializecss\widgets\navigation\NavBar;
-use macgyer\yii2materializecss\widgets\navigation\Breadcrumbs;
-use macgyer\yii2materializecss\widgets\Alert;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\navigation\Nav;
+use alvarolordelo\yii2materialize\widgets\navigation\NavBar;
+use alvarolordelo\yii2materialize\widgets\navigation\Breadcrumbs;
+use alvarolordelo\yii2materialize\widgets\Alert;
 use app\asset\AppAsset;
 
 AppAsset::register($this);
