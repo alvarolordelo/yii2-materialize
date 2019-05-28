@@ -5,11 +5,11 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\form;
+namespace alvarolordelo\yii2materialize\widgets\form;
 
-use alvarolordelo\yii2materializecss\assets\MaterializePluginAsset;
-use alvarolordelo\yii2materializecss\lib\Html;
-use alvarolordelo\yii2materializecss\widgets\Icon;
+use alvarolordelo\yii2materialize\assets\MaterializePluginAsset;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\Icon;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\web\JsExpression;
@@ -295,7 +295,7 @@ class ActiveField extends \yii\widgets\ActiveField
      * @param array $items the data item used to generate the checkboxes.
      * The array values are the labels, while the array keys are the corresponding checkbox values.
      * @param array $options options (name => config) for the checkbox list.
-     * For the list of available options please refer to the `$options` parameter of [[\alvarolordelo\yii2materializecss\lib\Html::activeCheckboxList()]].
+     * For the list of available options please refer to the `$options` parameter of [[\alvarolordelo\yii2materialize\lib\Html::activeCheckboxList()]].
      * @return $this the field object itself.
      */
     public function checkboxList($items, $options = [])
@@ -520,7 +520,7 @@ class ActiveField extends \yii\widgets\ActiveField
      * @param array $items the data item used to generate the radio buttons. The array values are the labels, while the
      * array keys are the corresponding radio values.
      * @param array $options options (name => config) for the radio button list. For the list of available options please
-     * refer to the `$options` parameter of [[\alvarolordelo\yii2materializecss\lib\Html::activeRadioList()]].
+     * refer to the `$options` parameter of [[\alvarolordelo\yii2materialize\lib\Html::activeRadioList()]].
      * @return $this the field object itself.
      */
     public function radioList($items, $options = [])

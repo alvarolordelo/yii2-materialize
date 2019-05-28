@@ -5,7 +5,7 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\lib;
+namespace alvarolordelo\yii2materialize\lib;
 
 use yii\widgets\InputWidget;
 

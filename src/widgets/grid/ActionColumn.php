@@ -5,10 +5,10 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\grid;
+namespace alvarolordelo\yii2materialize\widgets\grid;
 
-use alvarolordelo\yii2materializecss\lib\Html;
-use alvarolordelo\yii2materializecss\widgets\Icon;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\Icon;
 use Yii;
 use yii\helpers\ArrayHelper;
 

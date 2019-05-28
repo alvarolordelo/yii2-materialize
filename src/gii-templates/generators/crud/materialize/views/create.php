@@ -9,7 +9,7 @@ use yii\helpers\StringHelper;
 echo "<?php\n";
 ?>
 
-use macgyer\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materialize\lib\Html;
 
 
 /* @var $this yii\web\View */

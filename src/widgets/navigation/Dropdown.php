@@ -5,11 +5,11 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\navigation;
+namespace alvarolordelo\yii2materialize\widgets\navigation;
 
-use alvarolordelo\yii2materializecss\lib\BaseWidget;
-use alvarolordelo\yii2materializecss\lib\Html;
-use alvarolordelo\yii2materializecss\widgets\Button;
+use alvarolordelo\yii2materialize\lib\BaseWidget;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\Button;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 
@@ -20,7 +20,7 @@ use yii\helpers\ArrayHelper;
  *
  * ```php
  * <div class="dropdown">
- *      <?= \alvarolordelo\yii2materializecss\widgets\navigation\Dropdown::widget([
+ *      <?= \alvarolordelo\yii2materialize\widgets\navigation\Dropdown::widget([
  *          'items' => [
  *              ['label' => 'DropdownA', 'url' => '/'],
  *              ['label' => 'DropdownB', 'url' => '#'],
@@ -116,7 +116,7 @@ class Dropdown extends BaseWidget
      *
      * @return string the result of widget execution to be outputted.
      * @throws InvalidConfigException
-     * @see \alvarolordelo\yii2materializecss\lib\MaterializeWidgetTrait|MaterializeWidgetTrait
+     * @see \alvarolordelo\yii2materialize\lib\MaterializeWidgetTrait|MaterializeWidgetTrait
      */
     public function run()
     {

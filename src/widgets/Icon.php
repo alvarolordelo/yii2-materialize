@@ -1,14 +1,14 @@
 <?php
 /**
- * @link https://github.com/MacGyer/yii2-materializecss
- * @copyright Copyright (c) 2016 ... MacGyer for pluspunkt coding
- * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
+ * @link https://github.com/alvarolordelo/yii2-materializecss
+ * @copyright Copyright (c) 2016 ... alvarolordelo for pluspunkt coding
+ * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets;
+namespace alvarolordelo\yii2materialize\widgets;
 
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materialize\lib\BaseWidget;
+use alvarolordelo\yii2materialize\lib\Html;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 
@@ -16,10 +16,10 @@ use yii\helpers\ArrayHelper;
  * Icon can be used to display a Materialize icon.
  *
  * Please note that the Materialize icons are shipped in a separate font file. This font file is automatically registered
- * by the [[\macgyer\yii2materializecss\assets\MaterializeAsset|MaterializeAsset]].
+ * by the [[\alvarolordelo\yii2materialize\assets\MaterializeAsset|MaterializeAsset]].
  *
- * If you do not load the default [[\macgyer\yii2materializecss\assets\MaterializeAsset|MaterializeAsset]] make sure to at least load
- * [[\macgyer\yii2materializecss\assets\MaterializeFontAsset|MaterializeFontAsset]] (or another source providing the font file) to correctly
+ * If you do not load the default [[\alvarolordelo\yii2materialize\assets\MaterializeAsset|MaterializeAsset]] make sure to at least load
+ * [[\alvarolordelo\yii2materialize\assets\MaterializeFontAsset|MaterializeFontAsset]] (or another source providing the font file) to correctly
  * display the icons.
  *
  * @author Christoph Erdmann <yii2-materializecss@pluspunkt-coding.de>

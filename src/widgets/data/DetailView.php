@@ -5,7 +5,7 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\data;
+namespace alvarolordelo\yii2materialize\widgets\data;
 
 /**
  * DetailView displays the detail of a single data model.

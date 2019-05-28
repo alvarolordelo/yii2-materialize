@@ -6,10 +6,10 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets;
+namespace alvarolordelo\yii2materialize\widgets;
 
-use alvarolordelo\yii2materializecss\lib\BaseWidget;
-use alvarolordelo\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materialize\lib\BaseWidget;
+use alvarolordelo\yii2materialize\lib\Html;
 use Yii;
 use yii\helpers\ArrayHelper;
 

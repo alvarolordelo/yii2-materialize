@@ -6,13 +6,13 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\navigation;
+namespace alvarolordelo\yii2materialize\widgets\navigation;
 
-use alvarolordelo\yii2materializecss\assets\MaterializePluginAsset;
-use alvarolordelo\yii2materializecss\lib\BaseWidget;
-use alvarolordelo\yii2materializecss\lib\Html;
-use alvarolordelo\yii2materializecss\widgets\Button;
-use alvarolordelo\yii2materializecss\widgets\Icon;
+use alvarolordelo\yii2materialize\assets\MaterializePluginAsset;
+use alvarolordelo\yii2materialize\lib\BaseWidget;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\Button;
+use alvarolordelo\yii2materialize\widgets\Icon;
 use Yii;
 use yii\helpers\ArrayHelper;
 
@@ -25,8 +25,8 @@ use yii\helpers\ArrayHelper;
  * or [\yii\widgets\Menu](http://www.yiiframework.com/doc-2.0/yii-widgets-menu.html) to build up such content. For example,
  *
  * ```php
- * use alvarolordelo\yii2materializecss\widgets\navigation\NavBar;
- * use alvarolordelo\yii2materializecss\widgets\navigation\Nav;
+ * use alvarolordelo\yii2materialize\widgets\navigation\NavBar;
+ * use alvarolordelo\yii2materialize\widgets\navigation\Nav;
  *
  * NavBar::begin(['brandLabel' => 'NavBar Test']);
  * echo Nav::widget([
@@ -122,9 +122,9 @@ class NavBar extends BaseWidget {
 
     /**
      * @var array the configuration options for the toggle button.
-     * The toggle button is rendered by the [[\alvarolordelo\yii2materializecss\widgets\Button|Button]] widget. See the docs for all available options.
+     * The toggle button is rendered by the [[\alvarolordelo\yii2materialize\widgets\Button|Button]] widget. See the docs for all available options.
      *
-     * @see \alvarolordelo\yii2materializecss\widgets\Button|Button
+     * @see \alvarolordelo\yii2materialize\widgets\Button|Button
      */
     public $sidenavToggleButtonOptions = [];
 

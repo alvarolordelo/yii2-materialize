@@ -5,7 +5,7 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\grid;
+namespace alvarolordelo\yii2materialize\widgets\grid;
 
 use yii\helpers\ArrayHelper;
 

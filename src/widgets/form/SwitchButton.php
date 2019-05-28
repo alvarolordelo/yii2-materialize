@@ -5,11 +5,11 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\form;
+namespace alvarolordelo\yii2materialize\widgets\form;
 
-use alvarolordelo\yii2materializecss\lib\BaseInputWidget;
-use alvarolordelo\yii2materializecss\lib\Html;
-use alvarolordelo\yii2materializecss\widgets\Icon;
+use alvarolordelo\yii2materialize\lib\BaseInputWidget;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\Icon;
 use yii\base\Model;
 use yii\helpers\ArrayHelper;
 

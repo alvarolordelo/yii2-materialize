@@ -1,14 +1,14 @@
 <?php
 /**
- * @link https://github.com/MacGyer/yii2-materializecss
- * @copyright Copyright (c) 2016 ... MacGyer for pluspunkt coding
- * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
+ * @link https://github.com/alvarolordelo/yii2-materializecss
+ * @copyright Copyright (c) 2016 ... alvarolordelo for pluspunkt coding
+ * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets;
+namespace alvarolordelo\yii2materialize\widgets;
 
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materialize\lib\BaseWidget;
+use alvarolordelo\yii2materialize\lib\Html;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 
@@ -16,7 +16,7 @@ use yii\helpers\ArrayHelper;
  * StaticChip renders small units of information.
  *
  * An usual use case is the displaying of contact information.
- * If you need tagging support in forms or inputs generally, please use [[\macgyer\yii2materializecss\widgets\form\ChipInput|ChipInput]].
+ * If you need tagging support in forms or inputs generally, please use [[\alvarolordelo\yii2materialize\widgets\form\ChipInput|ChipInput]].
  *
  * @author Christoph Erdmann <yii2-materializecss@pluspunkt-coding.de>
  *

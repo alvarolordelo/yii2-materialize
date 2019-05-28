@@ -5,12 +5,12 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\navigation;
+namespace alvarolordelo\yii2materialize\widgets\navigation;
 
-use alvarolordelo\yii2materializecss\lib\Html;
-use alvarolordelo\yii2materializecss\widgets\Button;
-use alvarolordelo\yii2materializecss\widgets\Collapsible;
-use alvarolordelo\yii2materializecss\widgets\navigation\Nav;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\Button;
+use alvarolordelo\yii2materialize\widgets\Collapsible;
+use alvarolordelo\yii2materialize\widgets\navigation\Nav;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 

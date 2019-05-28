@@ -5,11 +5,11 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\navigation;
+namespace alvarolordelo\yii2materialize\widgets\navigation;
 
-use alvarolordelo\yii2materializecss\assets\MaterializeAsset;
-use alvarolordelo\yii2materializecss\lib\BaseWidget;
-use alvarolordelo\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materialize\assets\MaterializeAsset;
+use alvarolordelo\yii2materialize\lib\BaseWidget;
+use alvarolordelo\yii2materialize\lib\Html;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;

@@ -5,7 +5,7 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\grid;
+namespace alvarolordelo\yii2materialize\widgets\grid;
 
 /**
  * LinkPager displays a list of hyperlinks that lead to different pages of target.

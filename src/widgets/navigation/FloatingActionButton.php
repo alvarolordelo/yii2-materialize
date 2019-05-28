@@ -5,11 +5,11 @@
  * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace alvarolordelo\yii2materializecss\widgets\navigation;
+namespace alvarolordelo\yii2materialize\widgets\navigation;
 
-use alvarolordelo\yii2materializecss\lib\BaseWidget;
-use alvarolordelo\yii2materializecss\lib\Html;
-use alvarolordelo\yii2materializecss\widgets\Button;
+use alvarolordelo\yii2materialize\lib\BaseWidget;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\Button;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 
@@ -108,7 +108,7 @@ class FloatingActionButton extends BaseWidget
 
     /**
      * @var array the options for the optional icon.
-     * The icon will be rendered by [[\alvarolordelo\yii2materializecss\widgets\Icon|Icon]].
+     * The icon will be rendered by [[\alvarolordelo\yii2materialize\widgets\Icon|Icon]].
      *
      * To specify an icon you can use the following parameters:
      *

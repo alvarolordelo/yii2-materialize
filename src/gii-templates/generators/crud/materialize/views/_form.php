@@ -16,12 +16,12 @@ if (empty($safeAttributes)) {
 echo "<?php\n";
 ?>
 
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\form\ActiveForm;
+use alvarolordelo\yii2materialize\lib\Html;
+use alvarolordelo\yii2materialize\widgets\form\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model <?= ltrim($generator->modelClass, '\\') ?> */
-/* @var $form macgyer\yii2materializecss\widgets\form\ActiveForm */
+/* @var $form alvarolordelo\yii2materialize\widgets\form\ActiveForm */
 ?>
 
 <div class="<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-form">
