@@ -1,9 +1,9 @@
 {
-    "name": "alvarolordelo/yii2-materializecss",
+    "name": "alvarolordelo/yii2-materialize",
     "minimum-stability": "stable",
-    "description": "Materialize CSS implementation for Yii2",
+    "description": "Materialize framework implementation for Yii2",
     "keywords": ["materialize", "yii2", "widgets", "material design"],
-    "homepage": "https://github.com/alvarolordelo/yii2-materializecss",
+    "homepage": "https://github.com/alvarolordelo/yii2-materialize",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "alvarolordelo\\yii2materializecss\\": "src"
+            "alvarolordelo\\yii2materialize\\": "src"
         }
     }
 }
