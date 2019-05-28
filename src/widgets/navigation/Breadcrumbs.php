@@ -1,13 +1,13 @@
 <?php
 /**
- * @link https://github.com/MacGyer/yii2-materializecss
- * @copyright Copyright (c) 2016 ... MacGyer for pluspunkt coding
- * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
+ * @link https://github.com/alvarolordelo/yii2-materializecss
+ * @copyright Copyright (c) 2016 ... alvarolordelo for pluspunkt coding
+ * @license https://github.com/alvarolordelo/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\navigation;
+namespace alvarolordelo\yii2materializecss\widgets\navigation;
 
-use macgyer\yii2materializecss\lib\Html;
+use alvarolordelo\yii2materializecss\lib\Html;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
@@ -91,7 +91,7 @@ class Breadcrumbs extends \yii\widgets\Breadcrumbs
      *
      * @see [yii\helpers\BaseHtml::renderTagAttributes()](http://www.yiiframework.com/doc-2.0/yii-helpers-basehtml.html#renderTagAttributes()-detail) for details on
      * how attributes are being rendered.
-     * @see https://github.com/MacGyer/yii2-materializecss/pull/5
+     * @see https://github.com/alvarolordelo/yii2-materializecss/pull/5
      */
     public $innerContainerOptions = [];
 
