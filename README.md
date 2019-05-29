@@ -12,7 +12,7 @@ This is the current, actively developed branch which is implementing Materialize
 This package integrates the Materialize CSS framework into [Yii2](http://www.yiiframework.com/).
 [Materialize](http://materializecss.com/) is a modern responsive front-end framework based on Material Design.
 
-See [official documentation](http://alvarolordelo.github.io/yii2-materializecss/) for detailed information.
+See [official documentation](https://materializecss.com/) for detailed information.
 
 Have a look at the [official demo page](https://yii2-materializecss.pluspunkt-coding.de) to see the repo in action (needs adaption to v3)
 
@@ -64,6 +64,14 @@ public $depends = [
     // more dependencies
 ];
 ```
+
+## Sample layout
+
+There is two sample layouts files included in the package. You can use this file to get inspiration for
+your own layout or replace the respective ```views/layouts/main.php``` with the file provided.
+
+You can find the samples of layout file in ```src/layout/main-starter.php``` and ```src/layout/main-parallax.php``` coded from materialize website DEMO.
+
 
 ## Widgets
 
@@ -127,13 +135,6 @@ You can copy those templates to any location you wish for further customization.
 
 Systems operating on normal parameters :)
 
-
-## Sample layout
-
-There is a sample layout file included in the package. You can use this file to get inspiration for
-your own layout or replace the respective ```views/layouts/main.php``` with the file provided.
-
-You can find the samples of layout file in ```src/layout/main-starter.php``` and ```src/layout/main-parallax.php``` coded from materialize website DEMO.
 
 ## Change log
 
