@@ -67,7 +67,7 @@ public $depends = [
 
 ## Sample layout
 
-There is two sample layouts files included in the package. You can use this file to get inspiration for
+There are two sample layouts files included in the package. You can use this file to get inspiration for
 your own layout or replace the respective ```views/layouts/main.php``` with the file provided.
 
 You can find the samples of layout file in ```src/layout/main-starter.php``` and ```src/layout/main-parallax.php``` coded from materialize website DEMO.
