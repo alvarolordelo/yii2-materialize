@@ -30,9 +30,9 @@ AppAsset::register($this);
 
         <?php
         $nav = NavBar::begin([
-                    'brandLabel' => 'HUMANON',
+                    'brandLabel' => 'My App',
                     'brandUrl' => Yii::$app->homeUrl,
-                    'options' => ['class' => '',],
+                    'options' => ['class' => 'white',],
                     'fixed' => true,
                     'wrapperOptions' => [
                         'class' => 'container'
@@ -86,7 +86,7 @@ AppAsset::register($this);
         </div>
 
 
-        <footer class="page-footer ">
+        <footer class="page-footer teal">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">

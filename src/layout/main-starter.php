@@ -30,9 +30,9 @@ AppAsset::register($this);
 
         <?php
         $nav = NavBar::begin([
-                    'brandLabel' => 'HUMANON',
+                    'brandLabel' => 'My App',
                     'brandUrl' => Yii::$app->homeUrl,
-                    'options' => ['class' => '',],
+                    'options' => ['class' => 'light-blue lighten-1',],
                     'fixed' => true,
                     'wrapperOptions' => [
                         'class' => 'container'
@@ -74,7 +74,7 @@ AppAsset::register($this);
             
                 <?=
                 Breadcrumbs::widget([
-                    'options' => ['class' => 'row'],
+                    'options' => ['class' => 'row blue'],
                     'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
                 ])
                 ?>
@@ -86,7 +86,7 @@ AppAsset::register($this);
         </div>
 
 
-        <footer class="page-footer ">
+        <footer class="page-footer orange">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
