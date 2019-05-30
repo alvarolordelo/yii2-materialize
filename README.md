@@ -122,7 +122,7 @@ $config['modules']['gii'] = [
         'crud' => [
             'class' => 'yii\gii\generators\crud\Generator',
             'templates' => [ // setting materializecss templates
-                'materializecss' => '@vendor/alvarolordelo/yii2-materialize/src/gii-templates/generators/crud/materialize', 
+                'materialize' => '@vendor/alvarolordelo/yii2-materialize/src/gii-templates/generators/crud/materialize',
             ]
         ]
     ],
